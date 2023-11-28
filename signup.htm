@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+    <head>
+        <script  src="project_script.js"></script>
+       <link rel="stylesheet"  type="text/css"  href="project_style.css">
+        <title>SignUp/soapbottle</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    </head>
+
+<body id="signupbody" background="image11.jpg">
+    <button id="signupnavbuttons"><a id="signupa" href="Home.htm">Home</a></button>
+    <button id="signupnavbuttons"><a id="signupa" href="model.htm">Visual Samples</a></button>
+    <button id="signupnavbuttons"><a id="signupa" href="contact.htm">Let's talk</a></button>
+    <button id="signupnavbuttons"><a id="signupa" href="aboutus.htm">Know who we are</a></button>
+    <button id="signupnavbuttons"><a id="signupa" href="email.htm" >Send us an email</a></button>
+    <button id="signupnavbuttons"><a id="signupa" href="lesson.htm">Tutorials</a></button>
+    <button id="signupnavbuttons" id=" signin"><a id="signupa" href="signin.htm">Sign In</a></button>
+    
+    <h1 align="center" id="signuph1">Welcome!</h1>
+    <p align=" center" id="signupparan">Sign Up for our optimal services</p>
+    <section id="data">
+        
+    <form align="center" name="signupform"  action="signin.htm" >
+        <label for="fname" id="signupformlabel" ><b>First Name:</b></label>
+        <input type="text" placeholder="First Name" id="signupforminput" class="fname" value="" name="FirstName">
+        <br>
+        <br>
+        <label for="surname" id="signupformlabel"><b>Surname:</b></label>
+        <input type="text"  placeholder="Surname Name" value="" class="sname" id="signupforminput" name="Surname">
+        <br>
+        <br>
+        <label for="email" id="signupformlabel"><b>Email:</b></label>
+        <input type="text" value="" id="signupforminput" name="Email" class="email"  placeholder="email">
+        <br>
+        <br>
+        <label for="number" id="signupformlabel"><b>Phone Number:</b></label>
+        <input type="number" value="" id="signupforminput" name="Phone" class="phone"  placeholder="Phone">
+        <br>
+        <br>
+        <label for="text" id="signupformlabel"><b>Password:</b></label>
+        <input type="password" value="" id="signupforminput" name="password" class="password" placeholder="Password">
+        <br>
+        <br>
+        <label for="text" id="signupformlabel"><b>Confirm Password:</b></label>
+        <input type="password" value="" id="signupforminput" name="conpassword" class="conpassword" placeholder="Confirm password">
+        <br>
+        <br>
+        <button align="center" id="signupsubmitbutton" onsubmit="checkCredentials()" type="submit" value="Sign Up" onclick="checkCredentials()">Sign Up</button>
+    </form>
+    <p align="center">Already have an accout?<a href="signin.htm">Sign In</a></p>
+    </section>
+
+
+ 
+</body>
+
+
+</html>

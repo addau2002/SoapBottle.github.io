@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="project_style.css">
+        
+        <title>
+            Sign In
+            </title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <body background="image11.jpg">
+            <button id="navbuttons"><a href="Home.htm">Home</a></button>
+            <button id="navbuttons"><a href="model.htm">Visual Samples</a></button>
+            <button id="navbuttons"><a href="contact.htm">Let's talk</a></button>
+            <button id="navbuttons"><a href="aboutus.htm">Know who we are</a></button>
+            <button id="navbuttons"><a href="email.htm" >Send us an email</a></button>
+            <button id="navbuttons"><a href="lesson.htm">Tutorials</a></button>
+            <button class="signup" id="navbuttons" value="Sing Up"><a href="signup.htm">Sign Up</a></button>
+            <section align="center">
+                <form name="signinform">
+            <label for="text"><b>Email</b></label>
+        <input type="email" value="" id="email" name="Email"  placeholder="email">
+        <br>
+        <br>
+        <label for="text"><b>Password</b></label>
+        <input type="password" value="" id="password" name="password"  placeholder="Password" >
+        </form>
+        <br>
+        <br>
+        <button align="center" id="submitbutton" value="Sign In" onclick="checkpassword()"><a href="Home.htm">Sign In</a></button>
+        <br><br>
+        
+
+            <p align="center">A new user? <a href="signup.htm">Sign Up</a></p>
+        </section>
+
+        <script>
+            function varifypassword(){
+                var pass = document.signup.password.value;
+                var password = document.signinform.password.value 
+                if(pass==password){
+                    alert("welcome")
+                }
+                else{
+                    alert("wrong password. Try again.")
+                }
+            }
+        </script>
+
+    </body>
+</html>

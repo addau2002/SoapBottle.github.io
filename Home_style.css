@@ -1,0 +1,416 @@
+
+a{
+    color: black;
+
+}
+a:visited{
+    color:orangered;
+}
+#navbuttons{
+    border-width: 2px;
+    border-color: orange;
+    width: 150px;
+    height: 40px;
+}
+div img{
+    width: 25px;
+    height: 25px;
+    border-color: orange;
+    border-width:5px ;
+    position: 10px 7px;
+    background-size: contain;
+    background-image: url("search2.png");
+}
+div input{
+    border-radius: 100px;
+    width: 500px;
+    height: 60px;
+    border-color: orange;
+    border-width: 5px;                
+    font-size: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-size: contain;
+    
+}
+div button{
+    width: 80px;
+    height: 60px;
+    border-color: orange;
+    border-width:5px ;
+    border-radius:30px ;
+
+}
+#heading3{
+    color:rgb(209, 231, 209);
+}
+#newsbutton{
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50px;
+    height: 50px;
+}
+#sec2{
+    color: green;
+    font-size: 20px;
+}
+#sec2 input{
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+    align-items: center;
+}
+
+
+ol{
+    padding: 20px;
+}
+ul{
+    padding: 20px;
+}
+ul li{
+    padding: 5px;
+    
+    margin-left: 35px;
+    background-color: rgb(219, 136, 103);
+    
+}
+ol li{
+    padding: 5px;
+    
+    margin-left: 35px;
+    background-color:rgb(219, 136, 103) ;
+}
+
+img{
+    border-radius: 100px;
+}
+#a1{
+    color:white;
+}
+#a2{
+    color: white;
+}
+#a3{
+    color: white;
+}
+#a4{
+    color: white;
+}
+#a5{
+    color: white;
+}
+input [type=search]{
+    margin-left: 100px;
+}
+.search .search-icon{
+    font-size: 30px;
+}
+#ol1{
+    color: white;
+}
+.bg1{
+    background-image: "bg1.jpeg";
+    text-decoration-color: white;
+    color: white;
+}
+.bg2{
+    background-image: "bg2.jpeg";
+}
+button{
+    border-radius: 50px;
+}
+#homeh1{
+    color: orange;
+    font-size: 100px;
+    font-family: Algerian;
+    letter-spacing: 10px;
+
+}
+#pgra{
+    color: green;
+    font-size: 30px;
+}
+#fset{
+    background-image: url("soap1.jpg");
+}
+#statement{
+    color:black;
+    font-size: 20px;
+    
+}
+input[type=text]{
+    margin-left: 100px;
+    cursor: alias;
+}
+#body-background{
+    backdrop-filter: blur(5px) ;
+}
+#lp1{
+    color: rgb(35, 230, 35);
+    margin-left: 10px;
+    font-family: Algerian;
+    font-size: 30px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#navigation{
+    margin-top:100px;
+    border-spacing: 5px;
+    
+
+}
+#planet{
+    color: rgb(204, 128, 13);
+}
+
+
+.signup{
+    margin-left: 90%;
+    width: 70px;
+    height: 40px;
+}
+input{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+section{
+margin-top: 20% ;
+}
+input[type=password]{
+margin-right: 2%;
+}
+
+
+#navbuttons{
+    border-width: 2px;
+    border-color: orange;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+#modela{
+    color: black;
+
+}
+a :active{
+    color:red;
+} 
+table{
+    width: 80%;
+    height: 30%;
+    
+}
+#navbuttons{
+    border-width: 2px;
+    border-color: orange;
+}
+#try{
+    border-radius: 100%;
+    width: 30%;
+    height: 30%;
+}
+h2
+#modelpara3{
+    color:white;
+    font-size: 20px;
+}
+#modelimg{
+    width: 50%;
+    height: 50%;
+}
+figcaption{
+    color: black;
+    font-size: 40px;
+}
+#li2cap{
+    color: white;
+    font-size: 40px;
+}
+#modelcaption{
+    font-size: 40px;
+    font-family: fantasy;
+    color: white;
+}
+#modelbutton{
+    border-radius: 50px;
+}
+.modelcontainer{
+    position:relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left{
+    position:absolute;
+    bottom: 30px;
+    left: 60px;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+}
+
+.top-left{
+    position:absolute;
+    top:30px;
+    left: 60px;
+}
+
+.top-right{
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
+
+.centered{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#modelh2{
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+#signupnavbuttons{
+    border-width: 2px;
+    border-color:green;
+
+}
+#signupa{
+    color: green;
+}
+#signupsign{
+    color: white;
+}
+#signin{
+    margin-left: 90%;
+}
+#data{
+    display: flex;
+    flex-direction: column;
+    float: center;
+}
+.fname{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+.sname{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin-left:5%;
+}
+.email{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin-left:5%;
+}
+.phone{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin-right:4%;
+}
+.password{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin-left:2%;
+}
+
+    .conpassword{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin-right:7%;}
+#signupbody{
+    backdrop-filter: blur(10px);
+}
+#signupform{
+    color: black;
+    font-size: 25px;
+    border-radius: 40px;
+    
+}
+#signupformlabel{
+    padding: 5px;
+    margin-left: 20px;
+}
+#signupforminput{
+    margin-left: 20px;
+    border-width: 5px;
+    border-color: green;
+}
+#signuph1{
+    color: green;
+    font-size: 50px;
+}
+#signupparan{
+    color:green;
+    font-size: 30px;
+}
+#signupsubmitbutton{
+    color: black;
+    width: 100px ;
+    height: 100px;
+    background-color: green;
+    border-radius: 100%;
+    font-size: 20px;
+
+    
+}
+#signupbutton{
+    border-radius: 50px;
+    
+}
+
+
+
+
+
+
+
+.aboutush1{
+    color: black;
+}
+#aboutusstory{
+    color: orangered;
+    font-size: 100px;
+}
+#short{
+    border-radius: 10px ;
+    border-color: green;
+    border-width: 5px;
+    margin-left: 25%;
+}
